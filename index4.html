@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Layout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            display: flex;
+            width: 90%;
+            margin: auto;
+            max-width: 1200px;
+        }
+        .left {
+            background-color: #1B4E8A;
+            color: white;
+            padding: 20px;
+            width: 40%;
+            position: relative;
+            border-radius: 0 150px 150px 0;
+        }
+        .circle {
+            background-color: #EFF2F7;
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            border: 5px solid #1B4E8A;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .circle img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .contact-info {
+            margin-top: 20px;
+        }
+        .contact-info div {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .contact-info div i {
+            margin-right: 10px;
+            font-size: 20px;
+        }
+        .right {
+            padding: 20px;
+            width: 60%;
+        }
+        .right h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .right p {
+            margin-top: 20px;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .right .pre-title {
+            color: gray;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="circle">
+                <img src="your-image.jpg" alt="Profile Picture">
+            </div>
+            <div class="contact-info">
+                <div>
+                    <i class="fas fa-phone-alt"></i>
+                    <span>+123-456-7890</span>
+                </div>
+                <div>
+                    <i class="fas fa-envelope"></i>
+                    <span>hello@reallygreatsite.com</span>
+                </div>
+                <div>
+                    <i class="fas fa-globe"></i>
+                    <span>www.reallygreatsite.com</span>
+                </div>
+                <div>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>123 Anywhere St., Any City, ST 12345</span>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="pre-title">YOUR PRE-TITLE GOES HERE</div>
+            <h1>Add a Catchy Title Here</h1>
+            <p>This space gives you more room to expound on your message. Remember that writing effectively is an art. Start by using simple, everyday words people can easily understand. Be clear and direct to the point. Keep your thoughts flowing logically, and aim for brevity.</p>
+            <p>Your ideas have a purpose, so choose words that accurately express them. Ensure your grammar is flawless as it impacts your credibility. Use the active voice whenever possible as it makes any narrative easier to read.</p>
+        </div>
+    </div>
+</body>
+</html>
