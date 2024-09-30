@@ -1,0 +1,19 @@
+.Name {
+    color: red;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: lightblue; /* Warna latar belakang tabel */
+}
+
+th, td {
+    padding: 100px;
+    background-color: #87CEEB; /* Warna biru untuk sel */
+}
+
+img {
+    width: 500px;
+    height: 300px;
+}
